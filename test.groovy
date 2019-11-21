@@ -1,4 +1,4 @@
-library 'INSSSharedLib'
+library identifier: 'INSSSharedLib', changelog: false
 
 def playprefix = 'UKC'
 def channel = '#operations'
