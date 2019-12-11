@@ -5,7 +5,7 @@ def channel = '#operations'
 
 def project = 'inss'
 
-def initmap = [
+def initialisemap = [
     [projectname: project,
     ChangeLogFile: 'job_change_log.log',
     ChangeLogs: CollectChangeLogs()],
