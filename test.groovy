@@ -5,10 +5,7 @@ def channel = '#operations'
 
 def project = 'inss'
 
-def initialisemap = [
-    [projectname: project,
-    ChangeLogFile: 'job_change_log.log'
-]
+def initialisemap = [[ChangeLogFile: 'job_change_log.log', ChangeLogs: CollectChangeLogs()],]
 
 def gitmap = [
     [name: 'Repository', url: 'git@github.com:jameswarreninss/myrepotocheckout.git', poll: true, credentials: ''],
