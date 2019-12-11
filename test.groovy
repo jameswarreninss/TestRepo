@@ -7,7 +7,7 @@ def project = 'inss'
 
 def initialisemap = [
     [projectname: project,
-    ChangeLogFile: 'job_change_log.log',
+    ChangeLogFile: 'job_change_log.log'
 ]
 
 def gitmap = [
