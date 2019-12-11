@@ -17,6 +17,7 @@ def gitmap = [
 
 node('master') {
     cleanWs()
-    StageLinearInOne ('BuildInitialise',initialisemap)
+    //StageLinearInOne ('BuildInitialise',initialisemap)
     StageLinearInOne ('ScmCheckout',gitmap)
+    StageLinearInOne ('BuildInitialise',initialisemap)
 }
