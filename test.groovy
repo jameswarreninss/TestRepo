@@ -16,4 +16,5 @@ node('master') {
     //StageLinearInOne ('BuildInitialise',initialisemap)
     StageLinearInOne ('ScmCheckout',gitmap)
     StageLinearInOne ('BuildInitialise2',initialisemap)
+    CollectChangeLogs2()
 }
